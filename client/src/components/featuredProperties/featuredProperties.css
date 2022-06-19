@@ -1,0 +1,67 @@
+.fp{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.fpItem{
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fpImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.fpName{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.fpCity{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    margin-left: 10px;
+    margin-top: 2px;
+    color: gray;
+}
+
+.fpPrice{
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.fpRating >button{
+    background-color:rgb(10, 10, 141);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(10, 10, 141);
+    padding: 6px 8px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.fpreview{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.fpReview{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
+}

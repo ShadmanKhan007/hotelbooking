@@ -1,0 +1,47 @@
+.mail{
+  background-color:rgb(3, 3, 107);
+  margin-left: -8%;
+  height: 300px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mailTitle{
+    margin-top: 3%;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 1px
+}
+
+.mailDesc{
+    margin-top: -15px;
+    font-size: 18px;
+    color: rgb(199, 199, 199);
+    font-weight: 400;
+}
+
+.mailInputContainer{
+    margin-top: 15px;
+}
+
+.mailInputContainer >input{
+
+     width: 30%;
+     padding: 10px;
+     height: 20px;
+     border-radius: 5px;
+     font-size: 18px;
+     color: gray;
+     outline: none;
+}
+
+.mailInputContainer >button{
+    background-color: rgb(15, 85, 176);
+    padding: 10px 35px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid rgb(15, 85, 176);
+    color: white;
+}
